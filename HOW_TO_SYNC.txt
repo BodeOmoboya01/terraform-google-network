@@ -1,0 +1,19 @@
+KEEP YOUR LOCAL COPY UP TO DATE
+================================
+
+Run these two commands in order:
+
+  1. Pull latest changes from the upstream project into your local copy:
+     git pull upstream main
+
+  2. Push your updated local copy to your GitHub fork:
+     git push origin master
+
+
+QUICK CHECK (are you up to date?):
+     git fetch upstream && git status
+
+
+REMOTE SETUP (for reference):
+  origin   = your fork      → https://github.com/BodeOmoboya01/terraform-google-network
+  upstream = original repo  → https://github.com/terraform-google-modules/terraform-google-network
